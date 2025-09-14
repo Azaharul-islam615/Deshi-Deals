@@ -35,3 +35,9 @@ document.getElementById("purchase").addEventListener("click",()=>{
   alert(`Purchase Successful!, Thank you for your order. Your payment is complete., success`)
    
 })
+
+// clear btn
+document.getElementById("clearbtn").addEventListener("click",(e)=>{
+   e.target.parentNode.parentNode.children[1].remove()
+    
+})
